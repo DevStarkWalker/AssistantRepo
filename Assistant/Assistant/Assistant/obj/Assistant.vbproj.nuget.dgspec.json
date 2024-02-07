@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal Projects\\Website\\Assistant\\Assistant\\Assistant\\Assistant.vbproj": {}
+    "D:\\Projects\\AssistantRepo\\Assistant\\Assistant\\Assistant\\Assistant.vbproj": {}
   },
   "projects": {
-    "C:\\Personal Projects\\Website\\Assistant\\Assistant\\Assistant\\Assistant.vbproj": {
+    "D:\\Projects\\AssistantRepo\\Assistant\\Assistant\\Assistant\\Assistant.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal Projects\\Website\\Assistant\\Assistant\\Assistant\\Assistant.vbproj",
+        "projectUniqueName": "D:\\Projects\\AssistantRepo\\Assistant\\Assistant\\Assistant\\Assistant.vbproj",
         "projectName": "Assistant",
-        "projectPath": "C:\\Personal Projects\\Website\\Assistant\\Assistant\\Assistant\\Assistant.vbproj",
+        "projectPath": "D:\\Projects\\AssistantRepo\\Assistant\\Assistant\\Assistant\\Assistant.vbproj",
         "packagesPath": "C:\\Users\\dejvo\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal Projects\\Website\\Assistant\\Assistant\\Assistant\\obj\\",
+        "outputPath": "D:\\Projects\\AssistantRepo\\Assistant\\Assistant\\Assistant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dejvo\\AppData\\Roaming\\NuGet\\NuGet.Config",

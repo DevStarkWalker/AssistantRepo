@@ -7,6 +7,10 @@ Public Class Form1
     Public gameModeLinks As List(Of String) ' Arrays of strings, these will be the URL addresses specified in a text file
     Public workModeLinks As List(Of String)
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Load settings from file when the application starts
+        SettingsForm.LoadSettingsFromFile()
+    End Sub
 
     Private Sub btnWorkMode_Click(sender As Object, e As EventArgs) Handles btnWorkMode.Click
         ' Open specified apps
@@ -82,6 +86,8 @@ Public Class Form1
     Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
         ' Create an instance of SettingsForm
         Using settingsForm As New SettingsForm()
+
+
             ' Show the form as a dialog (blocks interaction with other forms until closed)
             If settingsForm.ShowDialog() = DialogResult.OK Then
                 gameModeApps = settingsForm.GameModeApps

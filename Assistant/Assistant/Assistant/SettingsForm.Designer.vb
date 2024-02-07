@@ -31,6 +31,10 @@ Partial Class SettingsForm
         lstGameModeLinks = New ListBox()
         lstGameModeApps = New ListBox()
         btnSaveSettings = New Button()
+        btnRemoveGameModeApp = New Button()
+        btnRemoveGameModeLink = New Button()
+        btnRemoveWorkModeLink = New Button()
+        btnRemoveWorkModeApp = New Button()
         SuspendLayout()
         ' 
         ' AddGameModeApp
@@ -66,7 +70,7 @@ Partial Class SettingsForm
         AddWorkGameLink.Name = "AddWorkGameLink"
         AddWorkGameLink.Size = New Size(154, 23)
         AddWorkGameLink.TabIndex = 3
-        AddWorkGameLink.Text = "Add Work Game Link"
+        AddWorkGameLink.Text = "Add Work Mode Link"
         AddWorkGameLink.UseVisualStyleBackColor = True
         ' 
         ' lstWorkModeApps
@@ -114,11 +118,51 @@ Partial Class SettingsForm
         btnSaveSettings.Text = "Save Settings"
         btnSaveSettings.UseVisualStyleBackColor = True
         ' 
+        ' btnRemoveGameModeApp
+        ' 
+        btnRemoveGameModeApp.Location = New Point(239, 119)
+        btnRemoveGameModeApp.Name = "btnRemoveGameModeApp"
+        btnRemoveGameModeApp.Size = New Size(75, 23)
+        btnRemoveGameModeApp.TabIndex = 10
+        btnRemoveGameModeApp.Text = "Remove"
+        btnRemoveGameModeApp.UseVisualStyleBackColor = True
+        ' 
+        ' btnRemoveGameModeLink
+        ' 
+        btnRemoveGameModeLink.Location = New Point(686, 119)
+        btnRemoveGameModeLink.Name = "btnRemoveGameModeLink"
+        btnRemoveGameModeLink.Size = New Size(75, 23)
+        btnRemoveGameModeLink.TabIndex = 11
+        btnRemoveGameModeLink.Text = "Remove"
+        btnRemoveGameModeLink.UseVisualStyleBackColor = True
+        ' 
+        ' btnRemoveWorkModeLink
+        ' 
+        btnRemoveWorkModeLink.Location = New Point(686, 293)
+        btnRemoveWorkModeLink.Name = "btnRemoveWorkModeLink"
+        btnRemoveWorkModeLink.Size = New Size(75, 23)
+        btnRemoveWorkModeLink.TabIndex = 13
+        btnRemoveWorkModeLink.Text = "Remove"
+        btnRemoveWorkModeLink.UseVisualStyleBackColor = True
+        ' 
+        ' btnRemoveWorkModeApp
+        ' 
+        btnRemoveWorkModeApp.Location = New Point(239, 293)
+        btnRemoveWorkModeApp.Name = "btnRemoveWorkModeApp"
+        btnRemoveWorkModeApp.Size = New Size(75, 23)
+        btnRemoveWorkModeApp.TabIndex = 12
+        btnRemoveWorkModeApp.Text = "Remove"
+        btnRemoveWorkModeApp.UseVisualStyleBackColor = True
+        ' 
         ' SettingsForm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(750, 450)
+        ClientSize = New Size(781, 450)
+        Controls.Add(btnRemoveWorkModeLink)
+        Controls.Add(btnRemoveWorkModeApp)
+        Controls.Add(btnRemoveGameModeLink)
+        Controls.Add(btnRemoveGameModeApp)
         Controls.Add(btnSaveSettings)
         Controls.Add(lstGameModeApps)
         Controls.Add(lstGameModeLinks)
@@ -142,4 +186,8 @@ Partial Class SettingsForm
     Friend WithEvents lstGameModeLinks As ListBox
     Friend WithEvents lstGameModeApps As ListBox
     Friend WithEvents btnSaveSettings As Button
+    Friend WithEvents btnRemoveGameModeApp As Button
+    Friend WithEvents btnRemoveGameModeLink As Button
+    Friend WithEvents btnRemoveWorkModeLink As Button
+    Friend WithEvents btnRemoveWorkModeApp As Button
 End Class

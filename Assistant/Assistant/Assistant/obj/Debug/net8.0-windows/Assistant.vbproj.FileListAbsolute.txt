@@ -15,3 +15,21 @@ C:\Personal Projects\Website\Assistant\Assistant\Assistant\obj\Debug\net8.0-wind
 C:\Personal Projects\Website\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.genruntimeconfig.cache
 C:\Personal Projects\Website\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\ref\Assistant.dll
 C:\Personal Projects\Website\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.SettingsForm.resources
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\bin\Debug\net8.0-windows\Assistant.exe
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\bin\Debug\net8.0-windows\Assistant.deps.json
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\bin\Debug\net8.0-windows\Assistant.runtimeconfig.json
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\bin\Debug\net8.0-windows\Assistant.dll
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\bin\Debug\net8.0-windows\Assistant.pdb
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.Form1.resources
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.SettingsForm.resources
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.vbproj.GenerateResource.cache
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.AssemblyInfoInputs.cache
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.AssemblyInfo.vb
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.vbproj.CoreCompileInputs.cache
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.sourcelink.json
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.dll
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\refint\Assistant.dll
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.pdb
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\Assistant.genruntimeconfig.cache
+D:\Projects\AssistantRepo\Assistant\Assistant\Assistant\obj\Debug\net8.0-windows\ref\Assistant.dll
