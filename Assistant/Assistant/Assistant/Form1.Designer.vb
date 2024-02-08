@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
-    Inherits System.Windows.Forms.Form
+    Inherits MaterialSkin.Controls.MaterialForm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()>
@@ -49,7 +49,7 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(69, 34)
+        Label1.Location = New Point(71, 34)
         Label1.Name = "Label1"
         Label1.Size = New Size(168, 30)
         Label1.TabIndex = 2
@@ -58,7 +58,8 @@ Partial Class Form1
         ' 
         ' btnSettings
         ' 
-        btnSettings.Location = New Point(12, 8)
+        btnSettings.ForeColor = SystemColors.WindowText
+        btnSettings.Location = New Point(1, 0)
         btnSettings.Name = "btnSettings"
         btnSettings.Size = New Size(75, 23)
         btnSettings.TabIndex = 3
@@ -67,14 +68,18 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(306, 231)
+        BackColor = Color.WhiteSmoke
+        ClientSize = New Size(306, 241)
         Controls.Add(btnSettings)
         Controls.Add(Label1)
         Controls.Add(btnGameMode)
         Controls.Add(btnWorkMode)
+        ForeColor = SystemColors.ActiveCaptionText
+        FormStyle = FormStyles.ActionBar_None
         Name = "Form1"
+        Padding = New Padding(3, 24, 3, 3)
         Text = "Assistant"
         ResumeLayout(False)
         PerformLayout()

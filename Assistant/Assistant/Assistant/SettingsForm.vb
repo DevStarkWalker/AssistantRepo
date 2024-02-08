@@ -1,6 +1,7 @@
 ﻿Imports System.IO
 
 Public Class SettingsForm
+    Inherits MaterialSkin.Controls.MaterialForm
     ' Public properties to store selected items
     Public Property SelectedGameModeApp As String
     Public Property SelectedWorkModeApp As String
@@ -12,9 +13,13 @@ Public Class SettingsForm
     Private Sub SettingsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Load settings from file when the application starts
         LoadSettingsFromFile()
+
+        ' Set apps first
         SetGameModeApps(GameModeApps)
-        SetGameModeLinks(GameModeLinks)
         SetWorkModeApps(WorkModeApps)
+
+        ' Set links after setting apps
+        SetGameModeLinks(GameModeLinks)
         SetWorkModeLinks(WorkModeLinks)
     End Sub
 
@@ -123,6 +128,12 @@ Public Class SettingsForm
         ' Load Work Mode links and app paths
         WorkModeLinks = New List(Of String)(File.ReadAllLines(Path.Combine(projectFolderPath, "L&P", "WorkModeLinks.txt")))
         WorkModeApps = New List(Of String)(File.ReadAllLines(Path.Combine(projectFolderPath, "L&P", "WorkModeApps.txt")))
+
+        Form1.gameModeLinks = GameModeLinks
+        Form1.gameModeApps = GameModeApps
+        Form1.workModeLinks = WorkModeLinks
+        Form1.workModeApps = WorkModeApps
+
     End Sub
 
     Private Sub RemoveSelectedItems(listBox As ListBox, list As List(Of String))

@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class SettingsForm
-    Inherits System.Windows.Forms.Form
+    Inherits MaterialSkin.Controls.MaterialForm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -172,7 +172,9 @@ Partial Class SettingsForm
         Controls.Add(AddGameModeLink)
         Controls.Add(AddWorkModeApp)
         Controls.Add(AddGameModeApp)
+        FormStyle = FormStyles.StatusAndActionBar_None
         Name = "SettingsForm"
+        Padding = New Padding(3, 0, 3, 3)
         Text = "SettingsForm"
         ResumeLayout(False)
     End Sub

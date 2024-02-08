@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1Vfe3I3PR34k7Vnc+DWKjFWMZnOcKRvNzSOI5oo4talOSWbU4C5o/uxl8zGrhpECDYRHRfSixAAhJuPkT2BL8A==",
+  "dgSpecHash": "GyOrLGHIGa64BQsdR8ZAHUGyRKCxrxnSGJFUk5YeC/kfs8NpJlSBQrkoRdWmimqLWy7vhbKSTyg1wgDlK0HybQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\AssistantRepo\\Assistant\\Assistant\\Assistant\\Assistant.vbproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dejvo\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512"
+  ],
   "logs": []
 }

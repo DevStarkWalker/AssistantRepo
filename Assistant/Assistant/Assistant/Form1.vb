@@ -1,6 +1,10 @@
 ﻿Imports System.IO
+Imports MaterialSkin
+Imports MaterialSkin.Controls
 
 Public Class Form1
+    Inherits MaterialForm
+
     Public gameModeApps As List(Of String) ' Arrays of strings, these will be the paths to the specified apps in a text file
     Public workModeApps As List(Of String)
 
