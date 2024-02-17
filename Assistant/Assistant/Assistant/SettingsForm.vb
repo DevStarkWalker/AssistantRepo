@@ -10,18 +10,18 @@ Public Class SettingsForm
     Public Property GameModeApps As List(Of String) = New List(Of String)()
     Public Property WorkModeApps As List(Of String) = New List(Of String)()
 
-    Private Sub SettingsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Load settings from file when the application starts
-        LoadSettingsFromFile()
+Private Sub SettingsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    ' Load settings from file when the application starts
+    LoadSettingsFromFile()
 
-        ' Set apps first
-        SetGameModeApps(GameModeApps)
-        SetWorkModeApps(WorkModeApps)
+    ' Set apps first
+    SetGameModeApps(GameModeApps)
+    SetWorkModeApps(WorkModeApps)
 
-        ' Set links after setting apps
-        SetGameModeLinks(GameModeLinks)
-        SetWorkModeLinks(WorkModeLinks)
-    End Sub
+    ' Set links after setting apps
+    SetGameModeLinks(GameModeLinks)
+    SetWorkModeLinks(WorkModeLinks)
+End Sub
 
     Public Sub SetGameModeApps(items As List(Of String))
         GameModeApps = items
